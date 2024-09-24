@@ -12,7 +12,7 @@ function CardsList({ tickets }) {
               key={ticket.id}
               id={ticket.id}
               title={ticket.title}
-              tags={ticket.tags}
+              tags={ticket.tag}
               status={ticket.status} // Pass the status prop
             />
           ))}
